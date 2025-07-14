@@ -1,0 +1,29 @@
+# Node modules
+node_modules
+
+# Vite build output
+dist
+
+# Environment files
+.env
+.env.*
+
+# Lockfiles (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Output from tools
+coverage
+*.log
+
+# Public/static files
+public
+
+# Build artifacts (if using TypeScript or other compilers)
+*.tsbuildinfo
+
+# Ignore formatted JSON or large data files (optional)
+*.min.js
+*.min.css
+*.svg

@@ -1,10 +1,9 @@
 import BlogCardContent from './BlogCardContent';
-import './BlogCard.css';
 
 export default function BlogCard({ article }) {
   const { thumbnail, ...contentAndMeta } = article;
   return (
-    <div className="blog-card w-[340px] flex flex-col bg-white rounded-lg mt-[120px] overflow-hidden">
+    <div className="blog-card w-[340px] flex flex-col bg-white rounded-lg mt-[120px] overflow-hidden shadow-(--blog-card-shadow)">
       <img
         src={thumbnail.filename}
         alt={thumbnail.altText}

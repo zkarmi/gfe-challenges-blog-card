@@ -1,4 +1,3 @@
-import './App.css';
 import BlogCard from './BlogCard';
 
 const blogArticles = [
@@ -15,7 +14,7 @@ const blogArticles = [
 
 function App() {
   return (
-    <div className="blog-cards-container lg:min-h-[768px] md:min-h-[1024px] min-h-[812px]">
+    <div className="blog-cards-container lg:min-h-[768px] md:min-h-[1024px] min-h-[812px] bg-linear-to-b from-bg-gradient-stop-0 to-bg-gradient-stop-1 w-full flex justify-center items-start leading-6">
       {blogArticles.map((article) => (
         <BlogCard article={article} />
       ))}

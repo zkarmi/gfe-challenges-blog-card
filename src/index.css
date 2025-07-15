@@ -1,19 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
 
 @theme {
   --breakpoint-lg: 90rem;
   --blog-card-shadow: 0px 1px 2px 0 rgb(0 0 0 / 0.06), 0px 1px 3px 0 rgb(0 0 0 / 0.1);
+  --color-bg-gradient-stop-0: #f9fafb;
+  --color-bg-gradient-stop-1: #d2d6db;
 }
 
 @layer base {
   body {
     color: #525252;
-  }
-
-  #root {
-    line-height: 1.5;
-    display: flex;
-    justify-content: center;
   }
 
   .font-large {
@@ -44,27 +41,4 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  margin: 0;
-  font-family:
-    'Noto Sans',
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Open Sans',
-    'Helvetica Neue',
-    sans-serif;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-
-  background-image: linear-gradient(to bottom, #f9fafb, #d2d6db);
 }
